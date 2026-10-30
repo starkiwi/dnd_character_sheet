@@ -1,3 +1,13 @@
+.characterModel {
+  z-index: -2;
+}
+
+
+canvas {
+  height: 100vh !important;
+}
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
