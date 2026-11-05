@@ -11,6 +11,16 @@ li {
     margin-bottom: 1em;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 0.8em;
+}
+
 .score {
     /*Box-shadow: x y blur spread color*/
     box-shadow: 0 0 0.1em 0.1em rgba(123, 194, 245, 80%), /*sharp thin shadow*/
@@ -20,12 +30,10 @@ li {
 }
 
 .score > h2 {
-    padding-top: 0.3em;
     padding-bottom: 1em;
 }
 
 .circle {
-    anchor-name: --modifier;
     width: 1.2em;
     height: 1.2em;
     background-color: #28313D;
@@ -40,10 +48,9 @@ li {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    position-anchor: --modifier;
     position-area: center;
-    width: anchor-size(--modifier);
-    height: anchor-size(--modifier);
+    width: anchor-size(width);
+    height: anchor-size(height);
     box-shadow: 0 0 0.1em 0.1em rgba(123, 194, 245, 80%), /*sharp thin shadow*/
                 0 0 0.3em 0.18em rgba(123, 194, 245, 40%), /*wider, blurred shadow*/
                 0 0 0.2em 0.15em rgba(123, 194, 245, 40%) inset; /*internal shadow to make glow*/

@@ -33,13 +33,13 @@ function CharacterModel() {
     return (
         <group
             position={characterPos}
-           >
+        >
             <Float
                 rotationIntensity={0.08}
                 floatIntensity={10}
                 speed={2}
                 floatingRange={[-0.1, 0.1]}>
-                <mesh 
+                <mesh
                     geometry={geometry}
                     rotation={characterRot}>
                     <HolographicMaterial
